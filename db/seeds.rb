@@ -7,27 +7,20 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Location.create(
-  city: "",
-  state: "",
-  zipcode: ,
+  city: "Indio",
+  state: "CA",
+  zipcode: 92201,
   country: "United States"
 )
 
-Location.create(
-  city: "",
-  state: "",
-  zipcode: ,
-  country: ""
-)
-
 UpcomingFestival.create(
-  name: "",
-  image: "",
-  location: Location.find_by(city: "")
+  name: "Coachella",
+  image: "http://cdn4.pitchfork.com/news/53493/8f41ec05.jpg",
+  location: Location.find_by(city: "Indio")
 )
 
 Artist.create(
-  name: "",
-  description: "",
-  image: ""
+  name: "AC/DC",
+  description: "They are so cool!",
+  image: "https://gv-account-assets.s3.amazonaws.com/artist-images/q/s/j/acdc_850x850.jpg"
 )
