@@ -19,35 +19,6 @@ u = UpcomingFestival.create(
   location: Location.find_by(city: "Indio".downcase)
 )
 
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
-
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
-
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
-
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
-
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
 
 a = Artist.create(
   name: "AC/DC",
@@ -200,6 +171,26 @@ UpcomingFestival.create(
   name: "Holy Ship",
   image: "http://i.imgur.com/tiFqq7I.jpg",
   location: Location.find_by(city: "Bahamas".downcase)
+)
+
+
+UpcomingFestival.create(
+  name: "Stagecoach",
+  image: "http://i.imgur.com/SAvYnlu.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
+UpcomingFestival.create(
+  name: "Beyond Wonderland",
+  image: "http://i.imgur.com/VoHiozt.jpg",
+  location: Location.find_by(city: "San Francisco".downcase)
+)
+
+
+UpcomingFestival.create(
+  name: "Treasure Island",
+  image: "http://i.imgur.com/I7Y1dfi.jpg",
+  location: Location.find_by(city: "San Francisco".downcase)
 )
 
 
