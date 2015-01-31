@@ -1,7 +1,9 @@
 <section id="festivals">
-<% binding.pry %>
-      <h1>Upcoming Festivals in <%=@upcoming_festivals.first.location.city %></h1>
+      <%= render partial: "layouts/city_search" %>
+
+      <h1><%=@upcoming_festivals.first.location.city %></h1>
       
+
       <div class="section group">
       	<div class="col span_1_of_3 one" style="background-image: url('http://i.imgur.com/ZzbXsBd.jpg');">
       	  <a href="#">
