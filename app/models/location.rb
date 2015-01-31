@@ -1,3 +1,3 @@
 class Location < ActiveRecord::Base
-  has_many :festivals
+  has_many :upcoming_festivals
 end
