@@ -76,8 +76,6 @@ Location.create(
 
 Location.create(
     city: "Half Moon Cay".downcase,
-    state: "",
-    zipcode: ,
     country: "Bahamas"
 )
 
@@ -123,7 +121,7 @@ Location.create(
 )
 
 Location.create(
-    city: "Bahamas".downcase,
+    city: "Bahamas".downcase
     # state: "CA",
     # zipcode: 92660,
     # country: "US"
@@ -146,14 +144,6 @@ UpcomingFestival.create(
   image: "http://i.imgur.com/ZzbXsBd.jpg",
   location: Location.find_by(city: "Las Vegas".downcase)
 )
-
-
-UpcomingFestival.create(
-  name: "Coachella",
-  image: "http://i.imgur.com/QOHeFl1.jpg",
-  location: Location.find_by(city: "Indio".downcase)
-)
-
 
 UpcomingFestival.create(
   name: "Outside Lands",
@@ -184,12 +174,6 @@ UpcomingFestival.create(
 
 
 #*********************************************************************************************************************
-
-# Artist.create(
-#     name: "",
-#     description: "",
-#     image: ""
-# )
 
 
 Artist.create(
@@ -419,15 +403,6 @@ Artist.create(
     description: "",
     image: "http://i.imgur.com/XnY85jz.png"
 )
-
-
-
-Artist.create(
-    name: "",
-    description: "",
-    image: ""
-)
-
 
 
 Artist.create(
