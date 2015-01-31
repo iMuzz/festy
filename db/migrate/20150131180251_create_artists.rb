@@ -3,7 +3,6 @@ class CreateArtists < ActiveRecord::Migration
     create_table :artists do |t|
       t.string :name
       t.string :description
-      t.integer :festival_id
 
       t.timestamps null: false
     end
