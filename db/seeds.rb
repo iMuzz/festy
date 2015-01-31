@@ -13,19 +13,16 @@ Location.create(
   country: "United States"
 )
 
-UpcomingFestival.create(
+u = UpcomingFestival.create(
   name: "Coachella",
   image: "http://cdn4.pitchfork.com/news/53493/8f41ec05.jpg",
   location: Location.find_by(city: "Indio")
 )
 
-Artist.create(
+a = Artist.create(
   name: "AC/DC",
   description: "They are so cool!",
   image: "https://gv-account-assets.s3.amazonaws.com/artist-images/q/s/j/acdc_850x850.jpg"
 )
 
-FestivalArtist.create(
-  festival: Festival.find_by(festival: "Coachella")
-  artist: Artist.find_by(name: "AC/DC")
-  )
+u.artists << a

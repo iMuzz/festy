@@ -1,4 +1,4 @@
 class Artist < ActiveRecord::Base
-  has_many :festivals, through: :festival_artists
+  has_and_belongs_to_many :upcoming_festivals
   # has_many :songs add this later
 end
