@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :upcoming_festivals
   resources :locations
   root to: "welcomes#home"
   # The priority is based upon order of creation: first created -> highest priority.

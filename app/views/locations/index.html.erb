@@ -8,7 +8,7 @@
         <% if index == 0 %>
         <div class="section group">
         	<div class="col span_1_of_3 one" style="background-image: url('<%= festival.image %>');">
-        	  <a href="#">
+        	  <a href="/upcoming_festivals/<%= festival.id %>">
           	  <div class="overlay one">
                 <h2><%= festival.name %></h2>
                 <p class="edc"><%= festival.location.city %></p>
@@ -17,7 +17,7 @@
         	</div>
         <% elsif index == 1 %>
         	<div class="col span_1_of_3 two" style="background-image: url('<%= festival.image %>');">
-        	  <a href="#">
+        	  <a href="/upcoming_festivals/<%= festival.id %>">
           	  <div class="overlay">
           	    <h2 class="coachella"><%= festival.name %></h2>
           	    <p class="edc"><%= festival.location.city %></p>
@@ -26,7 +26,7 @@
         	</div>
         <% elsif index == 2 %>
         	<div class="col span_1_of_3 three" style="background-image: url('<%= festival.image %>');">
-        	  <a href="#">
+        	  <a href="/upcoming_festivals/<%= festival.id %>">
               <div class="overlay">
                 <h2 class="outside_lands"><%= festival.name %></h2>
                 <p class="edc"><%= festival.location.city %></p>
@@ -40,7 +40,7 @@
          <% if index == 3 %> 
           <div class="section two group">
           	<div class="col span_1_of_3 one" style="background-image: url('<%= festival.image %>');">
-          	  <a href="#">
+          	  <a href="/upcoming_festivals/<%= festival.id %>">
             	  <div class="overlay one">
                   <h2 class="outside_lands"><%= festival.name %></h2>
                   <p class="edc"><%= festival.location.city %></p>
@@ -49,7 +49,7 @@
           	</div>
           <% elsif index == 4 %> 
           	<div class="col span_1_of_3 two" style="background-image: url('<%= festival.image %>');">
-          	  <a href="#">
+          	  <a href="/upcoming_festivals/<%= festival.id %>">
             	  <div class="overlay">
             	    <h2 class="outside_lands"><%= festival.name %></h2>
             	    <p class="edc"><%= festival.location.city %></p>
@@ -58,7 +58,7 @@
           	</div>
           <% elsif index == 5 %> 
           	<div class="col span_1_of_3 three" style="background-image: url('<%= festival.image %>');">
-          	  <a href="#">
+          	  <a href="/upcoming_festivals/<%= festival.id %>">
                 <div class="overlay">
                   <h2 class="coachella"><%= festival.name %></h2>
                   <p class="edc"><%= festival.location.city %></p>
