@@ -19,6 +19,36 @@ u = UpcomingFestival.create(
   location: Location.find_by(city: "Indio".downcase)
 )
 
+UpcomingFestival.create(
+  name: "Coachella",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
+UpcomingFestival.create(
+  name: "Coachella",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
+UpcomingFestival.create(
+  name: "Coachella",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
+UpcomingFestival.create(
+  name: "Coachella",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
+UpcomingFestival.create(
+  name: "Coachella",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
+  location: Location.find_by(city: "Indio".downcase)
+)
+
 a = Artist.create(
   name: "AC/DC",
   description: "They are so cool!",

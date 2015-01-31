@@ -16,7 +16,7 @@
             </a>
         	</div>
         <% elsif index == 1 %>
-        	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/QOHeFl1.jpg');">
+        	<div class="col span_1_of_3 two" style="background-image: url('<%= festival.image %>');">
         	  <a href="#">
           	  <div class="overlay">
           	    <h2 class="coachella"><%= festival.name %></h2>
@@ -25,7 +25,7 @@
           	</a>
         	</div>
         <% elsif index == 2 %>
-        	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/3aLuqnl.jpg');">
+        	<div class="col span_1_of_3 three" style="background-image: url('<%= festival.image %>');">
         	  <a href="#">
               <div class="overlay">
                 <h2 class="outside_lands"><%= festival.name %></h2>
@@ -39,7 +39,7 @@
       <% else %> 
          <% if index == 3 %> 
           <div class="section two group">
-          	<div class="col span_1_of_3 one" style="background-image: url('http://i.imgur.com/EoUhEZ0.jpg');">
+          	<div class="col span_1_of_3 one" style="background-image: url('<%= festival.image %>');">
           	  <a href="#">
             	  <div class="overlay one">
                   <h2 class="outside_lands"><%= festival.name %></h2>
@@ -48,7 +48,7 @@
               </a>
           	</div>
           <% elsif index == 4 %> 
-          	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/W8dCDzl.jpg');">
+          	<div class="col span_1_of_3 two" style="background-image: url('<%= festival.image %>');">
           	  <a href="#">
             	  <div class="overlay">
             	    <h2 class="outside_lands"><%= festival.name %></h2>
@@ -57,7 +57,7 @@
             	</a>
           	</div>
           <% elsif index == 5 %> 
-          	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/tiFqq7I.jpg');">
+          	<div class="col span_1_of_3 three" style="background-image: url('<%= festival.image %>');">
           	  <a href="#">
                 <div class="overlay">
                   <h2 class="coachella"><%= festival.name %></h2>
