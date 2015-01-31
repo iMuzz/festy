@@ -10,22 +10,24 @@ Location.create(
   city: "",
   state: "",
   zipcode: ,
+  country: "United States"
+)
+
+Location.create(
+  city: "",
+  state: "",
+  zipcode: ,
   country: ""
 )
 
 UpcomingFestival.create(
   name: "",
-  image: ""
+  image: "",
+  location: Location.find_by(city: "")
 )
 
 Artist.create(
   name: "",
   description: "",
-  image: ""
-)
-
-Festival.create(
-  location: "",
-  name: "",
   image: ""
 )
