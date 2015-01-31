@@ -159,6 +159,95 @@ body {
   display: none;
 }
 
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px auto;
+	margin-top: 100px;
+	width: 850px;
+}
+
+.section.two {
+  margin-top: 0;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 10px 0 10px 50px;
+	background-color: pink;
+	height: 250px;
+}
+.col:first-child { margin-left: 0; }
+
+.col.one, .col.two, .col.three {
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(3, 191, 191, .75);
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 65%; }
+.span_1_of_3 { 
+  width: 250px;
+ }
+ 
+ h2 {
+   color: white;
+   font-size: 55px;
+   line-height: 250px;
+   margin-top: -20px;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ 
+ .col p {
+   color: white;
+   margin-top: -100px;
+ }
+ 
+ .overlay.one {
+   margin-top: 20px;
+   height: 100%;
+   width: 100%;
+   background: rgba(3, 191, 191, .4);
+   transition: .4s;
+ }
+ 
+ .overlay {
+   margin-top: 20px;
+   height: 100%;
+   width: 100%;
+   background: rgba(3, 191, 191, .4);
+   transition: .4s;
+ }
+ 
+ .overlay:hover {
+   background: rgba(3, 191, 191, .3);
+   transition: .4s;
+ }
+ 
+ h2.outside_lands {
+   font-size: 30px;
+ }
+ 
+ h2.coachella {
+   font-size: 35px;
+ }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
 
 @media screen and (max-width: 1250px) {
   input {
@@ -197,6 +286,24 @@ body {
   h1 {
     font-size: 50px;
   }
+  
+  .section {
+    width: 100%;
+  }
+  
+  .col {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .col:first-child {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media screen and (max-width: 639px) {
@@ -212,5 +319,5 @@ body {
   
   h1 {
     font-size: 30px;
-  }
+  } 
 }
