@@ -5,11 +5,11 @@
     </header>
 
     <section id="home">
-      <form>
-        <input type="text" name="venue" list="venues" autocomplete="off">
+      <form action="/locations" method="get">
+        <input type="text" name="location[city]" list="venues" autocomplete="off">
         <datalist id="venues">
           <select name="venues">
-            <option value="COACHELLA">Coachella</option>
+           <!--  <option value="COACHELLA">Coachella</option>
             <option value="STAGECOACH">Stagecoach</option>
             <option value="OUTSIDE LANDS">Outside Lands</option>
             <option value="EDC">Electric Daisy Carnival</option>
@@ -18,7 +18,7 @@
             <option value="ULTRA">Ultra</option>
             <option value="COUNTERPOINT">Counterpoint</option>
             <option value="TOMORROW WORLD">Tomorrow World</option>
-            <option value="TOMORROW LAND">Tomorrow Land</option>
+            <option value="TOMORROW LAND">Tomorrow Land</option> -->
             <!-- … -->
           </select>
         </datalist>

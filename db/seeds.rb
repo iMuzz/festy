@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Location.create(
-  city: "Indio",
+  city: "Indio".downcase,
   state: "CA",
   zipcode: 92201,
   country: "United States"
@@ -16,7 +16,7 @@ Location.create(
 u = UpcomingFestival.create(
   name: "Coachella",
   image: "http://cdn4.pitchfork.com/news/53493/8f41ec05.jpg",
-  location: Location.find_by(city: "Indio")
+  location: Location.find_by(city: "Indio".downcase)
 )
 
 a = Artist.create(
