@@ -15,7 +15,7 @@ Location.create(
 
 u = UpcomingFestival.create(
   name: "Coachella",
-  image: "http://cdn4.pitchfork.com/news/53493/8f41ec05.jpg",
+  image: "http://i.imgur.com/QOHeFl1.jpg",
   location: Location.find_by(city: "Indio".downcase)
 )
 

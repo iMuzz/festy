@@ -2,58 +2,66 @@
 <section id="festivals">
 
       <h1><%=@upcoming_festivals.first.location.city %></h1>
-      
-
-      <div class="section group">
-      	<div class="col span_1_of_3 one" style="background-image: url('http://i.imgur.com/ZzbXsBd.jpg');">
-      	  <a href="#">
-        	  <div class="overlay one">
-              <h2>EDC</h2>
-              <p class="edc">Las Vegas</p>
-            </div>
-          </a>
-      	</div>
-      	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/QOHeFl1.jpg');">
-      	  <a href="#">
-        	  <div class="overlay">
-        	    <h2 class="coachella">Coachella</h2>
-        	    <p class="edc">Indio</p>
-        	  </div>
-        	</a>
-      	</div>
-      	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/3aLuqnl.jpg');">
-      	  <a href="#">
-            <div class="overlay">
-              <h2 class="outside_lands">Outside Lands</h2>
-              <p class="edc">San Francisco</p>
-            </div>
-          </a>
-      	</div>
-      </div>
-      
-      <div class="section two group">
-      	<div class="col span_1_of_3 one" style="background-image: url('http://i.imgur.com/EoUhEZ0.jpg');">
-      	  <a href="#">
-        	  <div class="overlay one">
-              <h2 class="outside_lands">Lollapalooza</h2>
-              <p class="edc">Chicago</p>
-            </div>
-          </a>
-      	</div>
-      	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/W8dCDzl.jpg');">
-      	  <a href="#">
-        	  <div class="overlay">
-        	    <h2 class="outside_lands">Hard Summer</h2>
-        	    <p class="edc">Los Angeles</p>
-        	  </div>
-        	</a>
-      	</div>
-      	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/tiFqq7I.jpg');">
-      	  <a href="#">
-            <div class="overlay">
-              <h2 class="coachella">Holy Ship</h2>
-              <p class="edc">Bahamas</p>
-            </div>
-          </a>
-      	</div>
-      </div>
+        
+      <% @upcoming_festivals.each_with_index do |festival, index| %>
+      <%  if (0..2).include?(index)  %>
+        <% if index == 0 %>
+        <div class="section group">
+        	<div class="col span_1_of_3 one" style="background-image: url('<%= festival.image %>');">
+        	  <a href="#">
+          	  <div class="overlay one">
+                <h2><%= festival.name %></h2>
+                <p class="edc"><%= festival.location.city %></p>
+              </div>
+            </a>
+        	</div>
+        <% elsif index == 1 %>
+        	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/QOHeFl1.jpg');">
+        	  <a href="#">
+          	  <div class="overlay">
+          	    <h2 class="coachella">Coachella</h2>
+          	    <p class="edc">Indio</p>
+          	  </div>
+          	</a>
+        	</div>
+        <% elsif index == 2 %>
+        	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/3aLuqnl.jpg');">
+        	  <a href="#">
+              <div class="overlay">
+                <h2 class="outside_lands">Outside Lands</h2>
+                <p class="edc">San Francisco</p>
+              </div>
+            </a>
+        	</div>
+        </div>
+        <% end %>
+      <% else %> 
+        
+        <div class="section two group">
+        	<div class="col span_1_of_3 one" style="background-image: url('http://i.imgur.com/EoUhEZ0.jpg');">
+        	  <a href="#">
+          	  <div class="overlay one">
+                <h2 class="outside_lands">Lollapalooza</h2>
+                <p class="edc">Chicago</p>
+              </div>
+            </a>
+        	</div>
+        	<div class="col span_1_of_3 two" style="background-image: url('http://i.imgur.com/W8dCDzl.jpg');">
+        	  <a href="#">
+          	  <div class="overlay">
+          	    <h2 class="outside_lands">Hard Summer</h2>
+          	    <p class="edc">Los Angeles</p>
+          	  </div>
+          	</a>
+        	</div>
+        	<div class="col span_1_of_3 three" style="background-image: url('http://i.imgur.com/tiFqq7I.jpg');">
+        	  <a href="#">
+              <div class="overlay">
+                <h2 class="coachella">Holy Ship</h2>
+                <p class="edc">Bahamas</p>
+              </div>
+            </a>
+        	</div>
+        </div>
+        <% end %>
+      <% end %>

@@ -201,7 +201,7 @@ body {
  
  h2 {
    color: white;
-   font-size: 55px;
+   font-size: 30px;
    line-height: 250px;
    margin-top: -20px;
    text-transform: uppercase;
@@ -233,14 +233,14 @@ body {
    background: rgba(3, 191, 191, .3);
    transition: .4s;
  }
- 
+/* 
  h2.outside_lands {
    font-size: 30px;
  }
  
  h2.coachella {
    font-size: 35px;
- }
+ }*/
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
