@@ -191,29 +191,21 @@ UpcomingFestival.create(
 Artist.create(
     name: "AC/DC",
     description: "",
-    image: "http://i.imgur.com/71kq4QB.png"
+    image: "http://i.imgur.com/kFM5zcJ.jpg"
 )
 
 
 Artist.create(
-    name: "ALTJ",
+    name: "ATL-J",
     description: "",
-    image: "http://i.imgur.com/5ZqfrPm.png"
+    image: "http://i.imgur.com/lbv0Vch.jpg"
 )
 
 
 Artist.create(
     name: "Angel Olson",
     description: "",
-    image: "http://i.imgur.com/hQDOnxF.png"
-)
-
-
-
-Artist.create(
-    name: "Annie Mac",
-    description: "",
-    image: "http://i.imgur.com/wKfReAk.png"
+    image: "http://i.imgur.com/Osud6wj.jpg"
 )
 
 
@@ -221,15 +213,7 @@ Artist.create(
 Artist.create(
     name: "Axwell",
     description: "",
-    image: "http://i.imgur.com/uQg9C51.png"
-)
-
-
-
-Artist.create(
-    name: "Benjamin Booker",
-    description: "",
-    image: "http://i.imgur.com/tNqAG0f.png"
+    image: "http://i.imgur.com/cGUAnr9.jpg"
 )
 
 
@@ -237,7 +221,7 @@ Artist.create(
 Artist.create(
     name: "Ben Klock",
     description: "",
-    image: "http://i.imgur.com/rr1oRpw.png"
+    image: "http://i.imgur.com/kSEprlF.jpg"
 )
 
 
@@ -245,7 +229,7 @@ Artist.create(
 Artist.create(
     name: "Bixel Boys",
     description: "",
-    image: "http://i.imgur.com/0OcaxHG.png"
+    image: "http://i.imgur.com/rDNeogH.jpg"
 )
 
 
@@ -253,15 +237,15 @@ Artist.create(
 Artist.create(
     name: "Cashmere Cat",
     description: "",
-    image: "http://i.imgur.com/weZnxHW.png"
+    image: "http://i.imgur.com/4dNBBGs.jpg"
 )
 
 
 
 Artist.create(
-    name: "Chicano Batma",
+    name: "Chiacano Batman",
     description: "",
-    image: "http://i.imgur.com/eimiEdT.png"
+    image: "http://i.imgur.com/reW8Czg.jpg"
 )
 
 
@@ -269,7 +253,7 @@ Artist.create(
 Artist.create(
     name: "Claude-Von-Stroke",
     description: "",
-    image: "http://i.imgur.com/DuVlpWe.png"
+    image: "http://i.imgur.com/4kTjs0M.jpg"
 )
 
 
@@ -277,7 +261,7 @@ Artist.create(
 Artist.create(
     name: "Drake",
     description: "",
-    image: "http://i.imgur.com/7w3y3bU.png"
+    image: "http://i.imgur.com/Epx9PjX.jpg"
 )
 
 
@@ -285,7 +269,7 @@ Artist.create(
 Artist.create(
     name: "Florence",
     description: "",
-    image: "http://i.imgur.com/R9OtDZb.png"
+    image: "http://i.imgur.com/SxbGEAn.jpg"
 )
 
 
@@ -293,7 +277,7 @@ Artist.create(
 Artist.create(
     name: "Flying Lotus",
     description: "",
-    image: "http://i.imgur.com/aLHPMSO.png"
+    image: "http://i.imgur.com/cpdrCNR.jpg"
 )
 
 
@@ -301,7 +285,7 @@ Artist.create(
 Artist.create(
     name: "Gessaffelstein",
     description: "",
-    image: "http://i.imgur.com/AysU7ZW.png"
+    image: "http://i.imgur.com/ASeuGCj.jpg"
 )
 
 
@@ -309,23 +293,23 @@ Artist.create(
 Artist.create(
     name: "Interpol",
     description: "",
-    image: "http://i.imgur.com/wHNkcki.png"
+    image: "http://i.imgur.com/ALwpaNd.jpg"
 )
 
 
 
 Artist.create(
-    name: "Jack",
+    name: "Jack White",
     description: "",
-    image: "http://i.imgur.com/9gLpR2d.png"
+    image: "http://i.imgur.com/8GYJiRS.jpg"
 )
 
 
 
 Artist.create(
-    name: "Jaemstown",
+    name: "Jamestown",
     description: "",
-    image: "http://i.imgur.com/eUyVRpZ.png"
+    image: "http://i.imgur.com/MsyXiaV.jpg"
 )
 
 
@@ -333,7 +317,7 @@ Artist.create(
 Artist.create(
     name: "Joyce Manor",
     description: "",
-    image: "http://i.imgur.com/3qfy77I.png"
+    image: "http://i.imgur.com/oo0LjgD.jpg"
 )
 
 
@@ -341,7 +325,7 @@ Artist.create(
 Artist.create(
     name: "Kaskade",
     description: "",
-    image: "http://i.imgur.com/R0cVQJI.png"
+    image: "http://i.imgur.com/5ghQ4pf.jpg"
 )
 
 
@@ -349,23 +333,16 @@ Artist.create(
 Artist.create(
     name: "Kaytranada",
     description: "",
-    image: "http://i.imgur.com/IifBjfZ.png"
+    image: "http://i.imgur.com/YuNl95W.jpg"
 )
 
-
-
-Artist.create(
-    name: "Matthew",
-    description: "",
-    image: "http://i.imgur.com/kxnkbEF.png"
-)
 
 
 
 Artist.create(
     name: "Nero",
     description: "",
-    image: "http://i.imgur.com/DcO8V6e.png"
+    image: "http://i.imgur.com/gC9pFBb.jpg"
 )
 
 
@@ -373,7 +350,7 @@ Artist.create(
 Artist.create(
     name: "Perfume",
     description: "",
-    image: "http://i.imgur.com/STwjqgS.png"
+    image: "http://i.imgur.com/hpeNrQX.jpg"
 )
 
 
@@ -381,15 +358,15 @@ Artist.create(
 Artist.create(
     name: "Ratatat",
     description: "",
-    image: "http://i.imgur.com/IRPU9Fy.png"
+    image: "http://i.imgur.com/xDhFjaL.jpg"
 )
 
 
 
 Artist.create(
-    name: "Ryan",
+    name: "Ryan Adams",
     description: "",
-    image: "http://i.imgur.com/RFCdjLW.png"
+    image: "http://i.imgur.com/WxAckBY.jpg"
 )
 
 
@@ -397,7 +374,7 @@ Artist.create(
 Artist.create(
     name: "Ryn",
     description: "",
-    image: "http://i.imgur.com/pmiPtgs.png"
+    image: "http://i.imgur.com/ebvx9hO.jpg"
 )
 
 
@@ -405,28 +382,20 @@ Artist.create(
 Artist.create(
     name: "Saint",
     description: "",
-    image: "http://i.imgur.com/LR8bpZq.png"
-)
-
-
-
-Artist.create(
-    name: "Sturgill",
-    description: "",
-    image: "http://i.imgur.com/XnY85jz.png"
+    image: "http://i.imgur.com/eRfmXx1.jpg"
 )
 
 
 Artist.create(
     name: "Tyler",
     description: "",
-    image: "http://i.imgur.com/HdA7JJ5.png"
+    image: "http://i.imgur.com/PcZmMZQ.jpg"
 )
 
 Artist.create(
     name: "Weekend",
     description: "",
-    image: "http://i.imgur.com/jE9C475.png"
+    image: "http://i.imgur.com/RBum51W.jpg"
 )
 
 
@@ -434,7 +403,7 @@ Artist.create(
 Artist.create(
     name: "Yellow",
     description: "",
-    image: "http://i.imgur.com/PgQMhv2.png"
+    image: "http://i.imgur.com/UPxzQuv.jpg"
 )
 
 Artist.all.each do |artist|

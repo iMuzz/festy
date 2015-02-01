@@ -6,7 +6,7 @@
   <div class= "container">
 
   <div class="wrapper">
-        <h1><%=  @festival.name %></h1>
+        <h1 class="header_coachella"><%=  @festival.name %></h1>
         <br></br>               
 
 		<%  @festival.artists.each do |artist|%>
@@ -14,19 +14,19 @@
           <ul class="artist">
             <li class='accordion-li' >
               <img src="<%= artist.image %>" />
-              <h3><%= artist.name %></h3>
+              <h3 class="artist-title"><%= artist.name %></h3>
 
               <audio controls>
                 <source src="horse.mp3" type="audio/mpeg">
                   Your browser does not support the audio element.
                 </audio>
                 <p>Portland wayfarers roof party Kickstarter distillery. PBR&B tofu disrupt fingerstache freegan, forage DIY iPhone Schlitz. Pug meh hashtag Schlitz, ethical cray sriracha semiotics Brooklyn kogi.</p>
-                <p><a class="btn btn-default" target="_blank" href="images/paceflier.pdf" role="button">More Info &raquo;</a></p>
+                <p><a class="btn btn-default" target="_blank" href="images/paceflier.pdf" role="button">Website &raquo;</a></p>
               </li>
 
         <% end %>
               <!-- <li class='accordion-li' >
-                <img class="artist" src="images/rectangle640/altj_rectangle_640.png" />
+                <img class="artist" src="images/r4ctangle640/altj_rectangle_640.png" />
                 <h3>Eligable Counties and Cities</h3>
               </li>
               <li class='accordion-li' >

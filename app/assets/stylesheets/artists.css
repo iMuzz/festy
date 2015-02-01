@@ -48,12 +48,8 @@ table {
 /* CSS RESET END */
 
 .container {
-    max-width: 800px;
+    max-width: 640px;
     margin: 0 auto;
-}
-
-.mobile {
-    display: none;
 }
 
 /* GRID */
@@ -103,15 +99,6 @@ ul.rig.columns-4 li {
 	width: 22.5%; /* this value + 2.5 should = 25% */
 }
  
-
-
-    .web {
-        display: none;
-    }
-    .mobile {
-        display: inherit;
-    }
-
     ul.artist li {
     min-height: 75px;
     width: 100%;
@@ -126,6 +113,12 @@ ul.rig.columns-4 li {
 	-webkit-box-sizing: border-box;
     }
 
+    h1.header_coachella {
+      margin-top: 100px;
+      margin-bottom: 70px;
+      text-align: center;
+    }
+    
     .accordion-li {
       overflow: hidden;
       height: 75px;
@@ -153,9 +146,13 @@ ul.rig.columns-4 li {
         text-decoration: none;
         color: rgb(3, 191, 191);
         border: 1px solid rgb(3, 191, 191);
-        padding: 5px;
+        padding: 5px ;
         border-radius: 3px;
+        width: 70px;
+        margin: 0 auto;
         margin-top: -4px;
+        margin: 0 40%;
+        display: block;
     }
 
     p a.btn:hover {
@@ -165,8 +162,7 @@ ul.rig.columns-4 li {
 
     
   img .artist{
-    width: 100%;
-    /*position: absolute;*/
+      width: 100%;
       height: auto;
       top: 0px;
       max-height: 150px;
@@ -174,30 +170,21 @@ ul.rig.columns-4 li {
     h3 {
         position: absolute;
         top: 45px;
-       /*padding: 8% 0 9% 3%;*/
-       /*padding-left: 3%*/
-       left: 3%;
-	   font-size: 127%;
+        left: 3%;
+	      font-size: 300% !important;
         color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 900;
         
     }
+
+    h3.artist-title {
+      text-align: left;
+    }
     
-
-    
-
-
 
 
 @media (max-width: 480px) {
-    .web {
-        display: none;
-    }
-    .mobile {
-        display: inherit;
-    }
-
     ul.artist li {
     min-height: 75px;
     width: 100%;
@@ -225,7 +212,7 @@ ul.rig.columns-4 li {
     }
 
     .accordion-li p {
-     margin:  30px 51px;
+     margin:  6% 5% 6% 5%;
      font-family: 'Lato', sans-serif;
         font-weight: 400;
     }
@@ -236,28 +223,24 @@ ul.rig.columns-4 li {
     }
 
     
-  img {
+  img .artist {
     width: 100%;
-    /*position: absolute;*/
       height: auto;
       top: 0px;
-      max-height: 107px;
+      max-height: 150px;
   }
-    h3 {
+    h3.artist-title {
         position: absolute;
         top: 45px;
-       /*padding: 8% 0 9% 3%;*/
-       /*padding-left: 3%*/
        left: 3%;
-	   font-size: 127%;
+       font-size: 150% !important;
         color: white;
         font-family: 'Lato', sans-serif;
         font-weight: 900;
+        text-align: left;
         
     }
     
 
 
 }
-
-@media (max-width: 480px) {
