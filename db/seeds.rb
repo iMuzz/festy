@@ -20,15 +20,6 @@ u = UpcomingFestival.create(
 )
 
 
-a = Artist.create(
-  name: "AC/DC",
-  description: "They are so cool!",
-  image: "https://gv-account-assets.s3.amazonaws.com/artist-images/q/s/j/acdc_850x850.jpg"
-)
-
-u.artists << a
-
-
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
@@ -445,4 +436,8 @@ Artist.create(
     description: "",
     image: "http://i.imgur.com/PgQMhv2.png"
 )
+
+Artist.all.each do |artist|
+    u.artists << artist
+end
 
