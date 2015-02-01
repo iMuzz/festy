@@ -17,7 +17,8 @@
               <h3 class="artist-title"><%= artist.name %></h3>
 
               <audio controls>
-                <source src="horse.mp3" type="audio/mpeg">
+
+                <source src="/<%= artist.song if !artist.song.nil? %>" type="audio/mpeg">
                   Your browser does not support the audio element.
                 </audio>
                 <p>Portland wayfarers roof party Kickstarter distillery. PBR&B tofu disrupt fingerstache freegan, forage DIY iPhone Schlitz. Pug meh hashtag Schlitz, ethical cray sriracha semiotics Brooklyn kogi.</p>

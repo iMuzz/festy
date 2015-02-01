@@ -89,9 +89,13 @@ a:hover {
 @viewport { width: device-width; }
 
 header img.logo{
-  height: 30px;
+  width: 250px;
+  display: block;
   position: absolute;
-  margin: 10px;
+  margin-top: 30px;
+  left: 50%;
+  right: 50%;
+  margin-left: -125px;
 }
 
 section {

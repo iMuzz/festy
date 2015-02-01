@@ -191,7 +191,8 @@ UpcomingFestival.create(
 Artist.create(
     name: "AC/DC",
     description: "",
-    image: "http://i.imgur.com/kFM5zcJ.jpg"
+    image: "http://i.imgur.com/kFM5zcJ.jpg",
+    song: "ACDC_Songs.mp3"
 )
 
 
@@ -221,7 +222,8 @@ Artist.create(
 Artist.create(
     name: "Ben Klock",
     description: "",
-    image: "http://i.imgur.com/kSEprlF.jpg"
+    image: "http://i.imgur.com/kSEprlF.jpg",
+    song: "Ben_klock_Songs.mp3"
 )
 
 
@@ -237,7 +239,8 @@ Artist.create(
 Artist.create(
     name: "Cashmere Cat",
     description: "",
-    image: "http://i.imgur.com/4dNBBGs.jpg"
+    image: "http://i.imgur.com/4dNBBGs.jpg",
+    song: "Cashmere_Cat_Songs.mp3"
 )
 
 
@@ -325,7 +328,9 @@ Artist.create(
 Artist.create(
     name: "Kaskade",
     description: "",
-    image: "http://i.imgur.com/5ghQ4pf.jpg"
+    image: "http://i.imgur.com/5ghQ4pf.jpg",
+    song: "Kaskade_Songs.mp3"
+
 )
 
 
@@ -342,7 +347,8 @@ Artist.create(
 Artist.create(
     name: "Nero",
     description: "",
-    image: "http://i.imgur.com/gC9pFBb.jpg"
+    image: "http://i.imgur.com/gC9pFBb.jpg",
+    song: "Nero_Songs.mp3"
 )
 
 

@@ -4,6 +4,7 @@ class CreateArtists < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.string :image
+      t.string :song
 
       t.timestamps null: false
     end
