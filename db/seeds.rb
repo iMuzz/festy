@@ -213,7 +213,7 @@ Artist.create(
 
 Artist.create(
     name: "Axwell",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/cGUAnr9.jpg"
 )
 
@@ -230,7 +230,7 @@ Artist.create(
 
 Artist.create(
     name: "Bixel Boys",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/rDNeogH.jpg"
 )
 
@@ -247,7 +247,7 @@ Artist.create(
 
 Artist.create(
     name: "Chiacano Batman",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/reW8Czg.jpg"
 )
 
@@ -255,7 +255,7 @@ Artist.create(
 
 Artist.create(
     name: "Claude-Von-Stroke",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/4kTjs0M.jpg"
 )
 
@@ -263,7 +263,7 @@ Artist.create(
 
 Artist.create(
     name: "Drake",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/Epx9PjX.jpg"
 )
 
@@ -271,7 +271,7 @@ Artist.create(
 
 Artist.create(
     name: "Florence",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/SxbGEAn.jpg"
 )
 
@@ -279,7 +279,7 @@ Artist.create(
 
 Artist.create(
     name: "Flying Lotus",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/cpdrCNR.jpg"
 )
 
@@ -287,7 +287,7 @@ Artist.create(
 
 Artist.create(
     name: "Gessaffelstein",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/ASeuGCj.jpg"
 )
 
@@ -295,7 +295,7 @@ Artist.create(
 
 Artist.create(
     name: "Interpol",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/ALwpaNd.jpg"
 )
 
@@ -303,7 +303,7 @@ Artist.create(
 
 Artist.create(
     name: "Jack White",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/8GYJiRS.jpg"
 )
 
@@ -311,7 +311,7 @@ Artist.create(
 
 Artist.create(
     name: "Jamestown",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/MsyXiaV.jpg"
 )
 
@@ -319,7 +319,7 @@ Artist.create(
 
 Artist.create(
     name: "Joyce Manor",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/oo0LjgD.jpg"
 )
 
@@ -327,7 +327,7 @@ Artist.create(
 
 Artist.create(
     name: "Kaskade",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/5ghQ4pf.jpg",
     song: "Kaskade_Songs.mp3"
 
@@ -337,7 +337,7 @@ Artist.create(
 
 Artist.create(
     name: "Kaytranada",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/YuNl95W.jpg"
 )
 
@@ -355,7 +355,7 @@ Artist.create(
 
 Artist.create(
     name: "Perfume",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/hpeNrQX.jpg"
 )
 
@@ -363,7 +363,7 @@ Artist.create(
 
 Artist.create(
     name: "Ratatat",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/xDhFjaL.jpg"
 )
 
@@ -371,7 +371,7 @@ Artist.create(
 
 Artist.create(
     name: "Ryan Adams",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/WxAckBY.jpg"
 )
 
@@ -379,7 +379,7 @@ Artist.create(
 
 Artist.create(
     name: "Ryn",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/ebvx9hO.jpg"
 )
 
@@ -387,20 +387,20 @@ Artist.create(
 
 Artist.create(
     name: "Saint",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/eRfmXx1.jpg"
 )
 
 
 Artist.create(
     name: "Tyler",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/PcZmMZQ.jpg"
 )
 
 Artist.create(
     name: "Weekend",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/RBum51W.jpg"
 )
 
@@ -408,7 +408,7 @@ Artist.create(
 
 Artist.create(
     name: "Yellow",
-    description: "",
+    description: "This artist is known to be one of the best live performers in the world. The groups unique voice creates an unmatched energy within the audience.",
     image: "http://i.imgur.com/UPxzQuv.jpg"
 )
 
