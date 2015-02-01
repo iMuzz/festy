@@ -198,7 +198,7 @@ Artist.create(
 
 Artist.create(
     name: "ALT-J",
-    description: "The band's debut album An Awesome Wave was released in May 2012 in Europe[2] and September 2012 in the United States, and won the 2012 British Mercury Prize. Gwil Sainsbury amicably departed the band in early 2014. Their second album, This Is All Yours, was released on 22 September 2014 and went straight to UK number 1.",
+    description: "The band's debut album An Awesome Wave was released in May 2012 in Europe[2] and September 2012 in the United States, and won the 2012 British Mercury Prize.",
     image: "http://i.imgur.com/lbv0Vch.jpg"
 )
 
@@ -221,7 +221,7 @@ Artist.create(
 
 Artist.create(
     name: "Ben Klock",
-    description: "",
+    description: "Berlin born DJ, producer and label owner Ben Klock is without a doubt one of the most significant characters in techno’s recent history. ",
     image: "http://i.imgur.com/kSEprlF.jpg",
     song: "Ben_klock_Songs.mp3"
 )
@@ -238,7 +238,7 @@ Artist.create(
 
 Artist.create(
     name: "Cashmere Cat",
-    description: "",
+    description: "Magnus August Høiberg (born November 29, 1987), best known under the artist name Cashmere Cat, is a Norwegian musician, producer and DJ/turntablist (representing Norway in the DMC World DJ Championships as DJ FINAL 2006-2009).",
     image: "http://i.imgur.com/4dNBBGs.jpg",
     song: "Cashmere_Cat_Songs.mp3"
 )
@@ -346,7 +346,7 @@ Artist.create(
 
 Artist.create(
     name: "Nero",
-    description: "",
+    description: "Nero, stylized NERO, are a British electronic music trio composed of members Daniel Stephens, Joe Ray and Alana Watson.[1][2] In August 2011, they released their debut studio album Welcome Reality.",
     image: "http://i.imgur.com/gC9pFBb.jpg",
     song: "Nero_Songs.mp3"
 )
