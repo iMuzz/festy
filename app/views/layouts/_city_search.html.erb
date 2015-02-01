@@ -1,12 +1,12 @@
     <header>
         <a href="<%= root_url %>">
-          <img src="http://i.imgur.com/I7HHiM7.png">
+          <img class="logo" src="http://i.imgur.com/I7HHiM7.png">
         </a>
     </header>
 
     <section id="home">
       <form action="/locations" method="get">
-        <input type="text" name="location[city]" list="venues" autocomplete="off">
+        <input type="text" placeholder="search by city" name="location[city]" list="venues" autocomplete="off">
         <datalist id="venues">
           <select name="venues">
           </select>

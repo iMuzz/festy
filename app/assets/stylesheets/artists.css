@@ -1,0 +1,263 @@
+/* CSS RESET */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET END */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none;
+}
+
+/* GRID */
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+
+
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: inherit;
+    }
+
+    ul.artist li {
+    min-height: 75px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+	display: inline-block;
+	background: #fff;
+	vertical-align: top;
+  overflow: hidden; //* hides audio files beneathe display image *//
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    }
+
+    .accordion-li {
+      overflow: hidden;
+      height: 75px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .accordion-li audio {
+      margin: 20px auto;
+      display: block;
+    }
+
+    .accordion-li p {
+     margin:  30px 51px;
+     font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+
+    .accordion-li.open {
+      overflow: visible;
+      height: 400px;
+    }
+
+    p a.btn {
+        text-decoration: none;
+        color: rgb(3, 191, 191);
+        border: 1px solid rgb(3, 191, 191);
+        padding: 5px;
+        border-radius: 3px;
+        margin-top: -4px;
+    }
+
+    p a.btn:hover {
+        background-color: rgb(3, 191, 191);
+        color: white;
+    }
+
+    
+  img .artist{
+    width: 100%;
+    /*position: absolute;*/
+      height: auto;
+      top: 0px;
+      max-height: 150px;
+  }
+    h3 {
+        position: absolute;
+        top: 45px;
+       /*padding: 8% 0 9% 3%;*/
+       /*padding-left: 3%*/
+       left: 3%;
+	   font-size: 127%;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        
+    }
+    
+
+    
+
+
+
+
+@media (max-width: 480px) {
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: inherit;
+    }
+
+    ul.artist li {
+    min-height: 75px;
+    width: 100%;
+    height: 75px;
+    position: relative;
+	display: inline-block;
+	background: #fff;
+	vertical-align: top;
+  overflow: hidden; //* hides audio files beneathe display image *//
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    }
+
+    .accordion-li {
+      overflow: hidden;
+      height: 75px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .accordion-li audio {
+      margin: 20px auto;
+      display: block;
+    }
+
+    .accordion-li p {
+     margin:  30px 51px;
+     font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+
+    .accordion-li.open {
+      overflow: visible;
+      height: 400px;
+    }
+
+    
+  img {
+    width: 100%;
+    /*position: absolute;*/
+      height: auto;
+      top: 0px;
+      max-height: 107px;
+  }
+    h3 {
+        position: absolute;
+        top: 45px;
+       /*padding: 8% 0 9% 3%;*/
+       /*padding-left: 3%*/
+       left: 3%;
+	   font-size: 127%;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        
+    }
+    
+
+
+}
+
+@media (max-width: 480px) {

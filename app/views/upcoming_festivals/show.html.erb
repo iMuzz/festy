@@ -1,4 +1,180 @@
 <%= render partial: "layouts/city_search" %>
 
 <!--  -->
-<h1> information each artist will go here</h2>
+<!-- <h1> information each artist will go here</h2> -->
+
+  <div class= "container">
+
+  <div class="wrapper">
+        <h1>Coachella</h1>
+        <br></br>               
+
+		<%  @festival.artists.each do |artist|%>
+        <div id="two-columns" class="grid-container" style="display:block;">
+          <ul class="artist">
+            <li class='accordion-li' >
+              <img src="<%= artist.image %>" />
+              <h3><%= artist.name %></h3>
+
+              <audio controls>
+                <source src="horse.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <p>Portland wayfarers roof party Kickstarter distillery. PBR&B tofu disrupt fingerstache freegan, forage DIY iPhone Schlitz. Pug meh hashtag Schlitz, ethical cray sriracha semiotics Brooklyn kogi.</p>
+                <p><a class="btn btn-default" target="_blank" href="images/paceflier.pdf" role="button">More Info &raquo;</a></p>
+              </li>
+
+        <% end %>
+              <!-- <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/altj_rectangle_640.png" />
+                <h3>Eligable Counties and Cities</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/angel-olsen_rectangle_640.png" />
+                <h3>Customer Financing Document</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/annie-mac_rectangle_640.png" />
+                <h3>Contractor Enrollment Form</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/axwell_rectangle_640.png" />
+                <h3>Recorded Training Webinar</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/ben-klock_rectangle_640.png" />
+                <h3>Job Status Report</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/benjamin-booker_rectangle_640.png" />
+                <h3>Payment Calculator</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/cashmere-cat_rectangle_640.png" />
+                <h3>PACE Handbook</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/chicano-batman_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/claude-von-stroke_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/drake_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/florence_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/flying-lotus_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/gessaffelstein_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/interpol_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/jack_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/jamestown-revival_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/joyce-manor_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/kaskade_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/kaytranada_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/square250/mathew_square_250.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/nero_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/perfume_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/ratatat_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/ryan_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/ryn_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/saint_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li' >
+                <img class="artist" src="images/rectangle640/sturgill_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/the-weeknd_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/tyler_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li>
+              <li class='accordion-li'>
+                <img class="artist" src="images/rectangle640/yellowclaw_rectangle_640.png" />
+                <h3>Marketing  Collateral</h3>
+              </li> -->
+
+            </ul>
+
+
+          </div> <!-- GRID -->
+
+
+        </div> <!-- END CONTAINER -->
+
+
+
+        <script>             (function($) {
+
+          var allPanels = $('.accordion > dd').hide();
+          var currentlyOpen;
+
+
+          var $artist = $('.accordion-li');
+          var $artistBanner = $('.accordion-li img');
+
+          $artistBanner.click(function() {
+            if ($(this).parent().hasClass('open')) {
+              $(this).parent().removeClass('open');
+            }
+
+            else {
+              $artist.removeClass('open');
+              $(this).parent().addClass('open');
+            }
+          });
+
+        })(jQuery);
+      </script>
