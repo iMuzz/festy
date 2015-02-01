@@ -190,22 +190,22 @@ UpcomingFestival.create(
 
 Artist.create(
     name: "AC/DC",
-    description: "",
+    description: "Angus Young was born into a family of musical siblings. His oldest brother, George Young, belonged to the Easybeats, an Aussie beat group whose “Friday on My Mind” was a hit in most countries following its release in 1966 and a hit in America by the spring of 1967.",
     image: "http://i.imgur.com/kFM5zcJ.jpg",
     song: "ACDC_Songs.mp3"
 )
 
 
 Artist.create(
-    name: "ATL-J",
-    description: "",
+    name: "ALT-J",
+    description: "The band's debut album An Awesome Wave was released in May 2012 in Europe[2] and September 2012 in the United States, and won the 2012 British Mercury Prize. Gwil Sainsbury amicably departed the band in early 2014. Their second album, This Is All Yours, was released on 22 September 2014 and went straight to UK number 1.",
     image: "http://i.imgur.com/lbv0Vch.jpg"
 )
 
 
 Artist.create(
     name: "Angel Olson",
-    description: "",
+    description: "Angel Olsen (born January 22, 1987) is an American folk and indie rock singer and guitarist who was raised in St. Louis, Missouri and currently lives in North Carolina.She  has recorded and toured as a backing singer with Bonnie Prince Billy and the Cairo Gang.",
     image: "http://i.imgur.com/Osud6wj.jpg"
 )
 
